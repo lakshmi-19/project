@@ -1,10 +1,15 @@
 body{
 	margin :0;
-	padding:0;
-	background: url(bg.jpg);
+	padding:0; 
+	background: url("bg.jpg");
+	
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
 	background-size:cover;
-	background-position:bottom;
-	font-family:sans-serif;
+	background-position:top;
+	font-family:sans-serif; 
 }
 .loginBox{
 	width:320px;
